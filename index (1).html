@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rashmi Computers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rajdhani', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    header {
+      background-color: rgba(0,0,0,0.9);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #00ffc8;
+    }
+    nav a {
+      color: white;
+      margin: 0 0.75rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .hero {
+      position: relative;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: #000;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "RASHMI COMPUTERS";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 5rem;
+      color: rgba(255, 255, 255, 0.05);
+      z-index: 1;
+      white-space: nowrap;
+    }
+    .hero h2 {
+      z-index: 2;
+      font-size: 2.5rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      color: #00ffc8;
+    }
+    section {
+      padding: 2rem;
+    }
+    section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0,0,0,0.8);
+    }
+    a.card-link {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rashmi Computers</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="yojana.html">Yojana</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="apply.html">Apply</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <h2>सरकारी योजनाओं और नौकरियों की जानकारी एक जगह!</h2>
+  </div>
+  <section>
+    <h3>छत्तीसगढ़ सरकारी योजनाएं</h3>
+    <a href="yojana.html" class="card-link"><div class="card">मुख्यमंत्री युवा स्वरोजगार योजना</div></a>
+    <a href="yojana.html" class="card-link"><div class="card">शिक्षा प्रोत्साहन योजना</div></a>
+  </section>
+  <section>
+    <h3>मध्यप्रदेश सरकारी योजनाएं</h3>
+    <a href="yojana.html" class="card-link"><div class="card">लाडली बहना योजना</div></a>
+    <a href="yojana.html" class="card-link"><div class="card">मुख्यमंत्री कृषक ब्याज माफी योजना</div></a>
+  </section>
+  <section>
+    <h3>All India Yojana</h3>
+    <a href="yojana.html" class="card-link"><div class="card">प्रधानमंत्री आवास योजना</div></a>
+    <a href="yojana.html" class="card-link"><div class="card">प्रधानमंत्री किसान सम्मान निधि</div></a>
+  </section>
+  <footer>
+    &copy; 2025 Rashmi Computers. सभी अधिकार सुरक्षित।
+  </footer>
+</body>
+</html>
